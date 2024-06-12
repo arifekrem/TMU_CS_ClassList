@@ -61,8 +61,6 @@ function rootDivClicked(event) {
     }
 }
 
-
-
 function zoom_slider_update(event) {
     const zoomValue = event.target.value;
     document.getElementById('zoom-value').innerHTML = zoomValue;
@@ -82,17 +80,6 @@ function highlightCourse(source) {
     source.style.opacity = '1.0';
     const arrows = document.getElementsByClassName(sourceId);
     for (const arrow of arrows) {
-        const related = arrow.classList;
-        for (const rel of related) {
-            const elem = document.getElementById(rel);
-            if (elem) elem.style.opacity = '1.0';
-        }
-    }
-    const allArrows = document.getElementsByTagName('line');
-    for (const arrow of allArrows) {
-        arrow.style.opacity = '0.08';
-    }
-    for (const arrow of arrows) {
         arrow.style.opacity = '1.0';
     }
 }
@@ -103,6 +90,10 @@ function showAllElements() {
     for (const elem of allElements) {
         elem.style.opacity = '1.0';
     }
+    const allArrows = document.getElementsByTagName('line');
+    for (const arrow of allArrows) {
+        arrow.style.opacity = '0';
+    }
 }
 
 let box_focused = false;
@@ -112,6 +103,9 @@ function focusBox(source) {
         source = source.parentElement;
     }
     console.log('Focusing on box:', source.id);
+    if (box_focused) {
+        unfocusBox();  // Unfocus the previous box if there is one focused
+    }
     box_focused = source.id;
     highlightCourse(source);
     document.getElementById('explain-main').style.display = 'block';
@@ -133,6 +127,7 @@ function focusBox(source) {
 
 function unfocusBox() {
     console.log('Unfocusing box');
+    if (!box_focused) return;
     box_focused = false;
     showAllElements();
     document.getElementById('explain-main').style.display = 'none';
@@ -152,7 +147,7 @@ function setupArrows() {
                 const prereqElement = document.getElementById(prereqId);
                 if (prereqElement) {
                     const arrow = document.createElementNS("http://www.w3.org/2000/svg", 'line');
-                    arrow.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1");
+                    arrow.setAttribute("style", "stroke:rgb(0,0,0);stroke-width:1;opacity:0");
                     arrow.setAttribute("marker-end", "url(#arrow)");
                     const x1 = parseFloat(prereqElement.style.left) + 6;
                     const y1 = parseFloat(prereqElement.style.top) + 4.5;

@@ -1,434 +1,430 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>York University CS Classes</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Saira+Condensed:wght@300&display=swap" rel="stylesheet">
-    <script src="index.js" defer></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7GNRNGX6D"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-H7GNRNGX6D');
-    </script>
-</head>
-<body>
-    <div class="wide-bg-colour">
-        <h1 class="titl">TMU Computer Science Skill Tree <br> (Course Prerequisite List) </h1>
-    </div>
-    <div hidden="hidden" id="templates">
-        <line x1="" y1="" x2="" y2="" style="stroke:rgb(0,0,0);stroke-width:1;" marker-end="url(#arrow)" class="svg-arrow"/>
-    </div>
-    <div id="root" style="width: 86em; height: 127.5em;" colorcode="dept">
-        <svg height="100%" width="100%" class="svgConns">
-            <defs>
-                <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" markerUnits="strokeWidth" orient="auto">
-                    <path d="M0,0 L0,6 L9,3 z" fill="#000" />
-                </marker>
-            </defs>
-        </svg>
-        <!-- the courses div box goes here -->
+    <head>
+        <meta charset="UTF-8">
+        <title>TMU CS classes</title>
+        <link rel="stylesheet" href="maine.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Saira+Condensed:wght@300&display=swap"
+            rel="stylesheet">
+        <script src="maine.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7GNRNGX6D"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        <div class="classBox eecs yl-1" id="eecs1001" style="left: 2em; top: 2.0em;" prereq="">
-    <span class="course-code-full">EECS 1001 (1.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Research Directions in Computing</span>
-    <div class="course-description" hidden="hidden">An introduction to research directions within the department and more broadly within the field. Students will attend lectures and other events organised by the department. Note: This course is expected to be completed in the first-year of study.</div>
+            gtag('config', 'G-H7GNRNGX6D');
+        </script>
+    </head>
+    <body>
+      <div class="wide-bg-colour">
+          <h1 class="titl">TMU Computer Science Skill Tree <br> (Course Prerequisite List) </h1>
+      </div>
+        <div hidden="hidden" id="templates">
+            <line x1="" y1="" x2="" y2="" style="stroke:rgb(0,0,0);stroke-width:1;" marker-end="url(#arrow)" class="svg-arrow"/>
+        </div>
+
+        <div id="root" style="width: 86em; height: 127.5em;" colorcode="dept">
+            <svg height="100%" width="100%" class="svgConns">
+                <defs>
+                    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" markerUnits="strokeWidth" orient="auto">
+                        <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+                    </marker>
+                </defs>
+            </svg>
+
+            <!-- the courses div box goes here -->
+            
+<div class="classBox CPS yl-1" id="CPS106" style="left: 2em; top: 2.0em;" prereq="">
+    <span class="course-code-full">CPS 106 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Introduction to Multimedia Computation</span>
+    <div class="course-description" hidden="hidden">Introduction to computing and programming. This course introduces the student to computers and the mindset of computing how to solve problems by developing algorithms and writing programs. The programming language is Python, and the problems are taken from the domain of multimedia (manipulation of images and sounds). </div>
 </div>
 
-<div class="classBox eecs yl-1" id="eecs1012" style="left: 16em; top: 2.0em;" prereq="">
-    <span class="course-code-full">EECS 1012 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to Computing: A Net-centric Approach</span>
-    <div class="course-description" hidden="hidden">The objectives of 1012 are threefold: providing a first exposure to event-driven programming, teaching students a set of computing skills (including reasoning about algorithms, tracing programs, test-driven development, unit testing), and providing an introduction to computing within a mobile, net-centric context. It uses problem-based approach to expose the underlying concepts and an experiential laboratory to implement them. A mature mobile software infrastructure (such as HTML, CSS, and JavaScript) is used so that students can pick up key programming concepts (such as variables and control flow) within a client-server context without being bogged down in complex or abstract constructs. Laboratory exercises expose students to a range of real-world problems with a view of motivating computational thinking and grounding the material covered in lecture.</div>
+<div class="classBox CPS yl-1" id="CPS109" style="left: 16em; top: 2.0em;" prereq="">
+    <span class="course-code-full">CPS 109 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Computer Science I</span>
+    <div class="course-description" hidden="hidden">An introductory programming course designed to introduce fundamental Computer Science concepts such as abstraction, modelling and algorithm design. Emphasis is placed on producing correct software. Replaces CPS 513 </div>
 </div>
 
-<div class="classBox eecs yl-1" id="eecs1015" style="left: 30em; top: 2.0em;" prereq="">
-    <span class="course-code-full">EECS 1015 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to Computer Science and Programming</span>
-    <div class="course-description" hidden="hidden">This course is an introduction to the concepts and tools of computer science as students learn a procedural subset of the Python programming language. Python has a variety of libraries in different domains allowing for the solution of interesting problems which has made it a popular language in industry and the academy. Students do hands-on work to design, write, debug and test computer programs that solve problems computationally. Students study variables, assignments, expressions (arithmetic, relational and logical) and sequencing of statements to implement solutions for computational problems, in Python. They document programs with comments and preconditions. They analyze the type correctness of programs via a type checker. They use an Integrated Development Environment (IDE) to develop, unit-test and debug programs given a problem specification. They apply conditionals (including nested conditionals) to implement algorithms to solve computational problems. They code functions to develop modular programming solutions for computational problems. They apply Python loops (including nested loops) to implement algorithms to solve computational problems. They apply data structures, including tuples, sets, lists and dictionaries, to implement algorithms to solve computational problems. They code simple recursive functions to implement algorithms to solve computational problems. </div>
+<div class="classBox CPS yl-1" id="CPS213" style="left: 30em; top: 2.0em;" prereq="">
+    <span class="course-code-full">CPS 213 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Computer Organization I</span>
+    <div class="course-description" hidden="hidden">This course introduces the students to the principles and fundamentals of digital system design. Topics covered include: Binary numbers, base conversions, signed numbers, Boolean algebra, logic gates, K-map method, combinational circuits, decoders/encoders, multiplexers, sequential circuits, flip-flops, state diagram, registers, counters and addressing techniques. (2 hr Lab every other week). </div>
 </div>
 
-<div class="classBox math yl-1" id="math1019" style="left: 44em; top: 2.0em;" prereq="">
-    <span class="course-code-full">MATH 1019 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Discrete Mathematics for Computer Science</span>
-    <div class="course-description" hidden="hidden">Introduction to abstraction. Use and development of precise formulations of mathematical ideas. Informal introduction to logic; introduction to naïve set theory; induction; relations and functions; big O-notation; recursive definitions, recurrence relations and their solutions; graphs and trees. </div>
+<div class="classBox math yl-1" id="MTH110" style="left: 44em; top: 2.0em;" prereq="">
+    <span class="course-code-full">MTH 110 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Discrete Mathematics I</span>
+    <div class="course-description" hidden="hidden">This course covers the fundamentals of discrete mathematics with a focus on proof methods. Topics include: propositional and predicate logic, notation for modern algebra, naive set theory, relations, functions and proof techniques. </div>
 </div>
 
-<div class="classBox math yl-1" id="math1025" style="left: 58em; top: 2.0em;" prereq="">
-    <span class="course-code-full">MATH 1025 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Applied Linear Algebra</span>
-    <div class="course-description" hidden="hidden">Topics include spherical and cylindrical coordinates in Euclidean 3-space, general matrix algebra, determinants, vector space concepts for Euclidean n-space (e.g. linear dependence and independence, basis, dimension, linear transformations etc.), an introduction to eigenvalues and eigenvectors. </div>
+<div class="classBox math yl-5" id="BLG143" style="left: 58em; top: 2.0em;" prereq="">
+    <span class="course-code-full">BLG 143 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Biology I</span>
+    <div class="course-description" hidden="hidden">This course is an introduction to the cellular and molecular mechanisms in the cell. Topics include macromolecule structure and function, enzymes, cell membrane structure and function, cell cycle control, cell division, metabolism, and photosynthesis. Also included is an introduction to genetics and patterns of inheritance, gene expression and developmental biology. Laboratory exercises complement lectures. </div>
 </div>
 
-<div class="classBox math yl-1" id="math1300" style="left: 72em; top: 2.0em;" prereq="">
-    <span class="course-code-full">MATH 1300 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Differential Calculus with Applications</span>
-    <div class="course-description" hidden="hidden">Limits, derivatives with applications, antiderivatives, fundamental theorem of calculus, beginnings of integral calculus. </div>
+<div class="classBox math yl-5" id="CHY103" style="left: 72em; top: 2.0em;" prereq="">
+    <span class="course-code-full">CHY 103 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">General Chemistry I</span>
+    <div class="course-description" hidden="hidden">This foundation course begins with an introduction to types of chemical compounds, chemical reactions and stoichiometry. Subsequent topics include the investigation of the states of matter (primarily liquids and gases), solutions and colligative properties, chemical equilibrium, acids and bases, and thermochemistry. This course acts as the first half of a full year general chemistry sequence and is a precursor to CHY 113 General Chemistry II. </div>
 </div>
 
-<div class="classBox eecs yl-1" id="eecs1022" style="left: 2em; top: 9.0em;" prereq="eecs1012 eecs1015">
-    <span class="course-code-full">EECS 1022 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Programming for Mobile Computing</span>
-    <div class="course-description" hidden="hidden">Provides a first exposure to object-oriented programming and enhances student understanding of key computing skills such as reasoning about algorithms, designing user interfaces, and working with software tools. It uses problem-based approach to expose the underlying concepts and an experiential laboratory to implement them. A mature mobile software infrastructure (such as Java and the Android programming environment) is used to expose and provide context to the underlying ideas. Laboratory exercises expose students to a range of real-world problems with a view of motivating computational thinking and grounding the material covered in lectures.</div>
+<div class="classBox math yl-5" id="PCS110" style="left: 86em; top: 2.0em;" prereq="">
+    <span class="course-code-full">PCS 110 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Physics</span>
+    <div class="course-description" hidden="hidden">Units and vectors. Motion: linear, projectile, circular and oscillatory motion. Newton's laws: Force, mass and acceleration; work, energy and power; linear and angular momentum. Electrostatics: Electric force and field; potential and potential energy; capacitance. Electric current and DC circuits. Magnetic field and force: magnetic force on currents and charges; Hall effect; torque on current loops; Waves: classification of waves; energy transfer; light and electromagnetic waves; diffraction and interference. MAPLE used for simulation/visualization of physical phenomena and problem solving. </div>
 </div>
 
-<div class="classBox math yl-1" id="math1310" style="left: 16em; top: 9.0em;" prereq="math1300">
-    <span class="course-code-full">MATH 1310 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Integral Calculus with Applications</span>
+<div class="classBox CPS yl-1" id="CPS209" style="left: 2em; top: 9.0em;" prereq="CPS106 CPS109">
+    <span class="course-code-full">CPS 209 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Computer Science II</span>
+    <div class="course-description" hidden="hidden">A continuation of CPS 109. Emphasis is placed on code structure, algorithm development, and Object Oriented design principles. </div>
+</div>
+
+<div class="classBox math yl-1" id="CPS310" style="left: 16em; top: 9.0em;" prereq="CPS211 CPS213">
+    <span class="course-code-full">CPS 310 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Computer Organization II</span>
     <div class="course-description" hidden="hidden">Transcendental functions, differential equations, techniques of integration, improper integrals, infinite series. </div>
 </div>
 
-<div class="classBox math yl-1" id="math1090" style="left: 30em; top: 9.0em;" prereq="math1019">
-    <span class="course-code-full">MATH 1090 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to Logic for Computer Science</span>
-    <div class="course-description" hidden="hidden">The syntax and semantics of propositional and predicate logic. Applications to program specification and verification. Optional topics include set theory and induction using the formal logical language of the first part of the course. </div>
+<div class="classBox math yl-1" id="CPS412" style="left: 30em; top: 9.0em;" prereq="">
+    <span class="course-code-full">CPS 412 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Social Issues, Ethics and Professionalism</span>
+    <div class="course-description" hidden="hidden">This course will cover some of fundamental social, legal, and ethical issues inherent in the discipline of computing. Topics include social context, analytical tools, professional ethics, intellectual property, privacy and civil liberties, professional communication, sustainability and equity issues. </div>
 </div>
 
-<div class="classBox eecs yl-2" id="eecs2001" style="left: 2em; top: 23.0em;" prereq="eecs1022 math1019">
-    <span class="course-code-full">EECS 2001 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to the Theory of Computation</span>
-    <div class="course-description" hidden="hidden">Introduction to the theory of computing, including automata theory, formal languages and Turing machines; theoretical models and their applications in various fields of computer science. The emphasis is on practical applications of the theory and concepts rather than formal rigour. </div>
+<div class="classBox math yl-1" id="MTH207" style="left: 44em; top: 9.0em;" prereq="">
+    <span class="course-code-full">MTH 207 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Calculus and Computational Methods I</span>
+    <div class="course-description" hidden="hidden">Calculus of functions of one variable and related numerical topics. Derivatives of algebraic, trigonometric and exponential functions. Differentiation techniques and applications of derivatives. Techniques of integration. </div>
 </div>
 
-<div class="classBox eecs yl-2" id="eecs2021" style="left: 16em; top: 23.0em;" prereq="eecs1022">
-    <span class="course-code-full">EECS 2021 (4.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Computer Organization</span>
-    <div class="course-description" hidden="hidden">Introduction to computer organization and instruction set architecture, covering assembly language, machine language and encoding, addressing modes, single/multicycle datapaths (including functional units and controls), pipelining, memory segments and memory hierarchy.</div>
+<div class="classBox CPS yl-2" id="CMN300" style="left: 2em; top: 23.0em;" prereq="">
+    <span class="course-code-full">CMN 300 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Communication in the Computer Industry</span>
+    <div class="course-description" hidden="hidden">In this workshop course, students learn to present technical information to audiences with a range of technical knowledge. The course teaches students various forms and content strategies relevant to the computer industry so they can communicate clearly and persuasively in online and traditional media. Students analyze and respond to professional situations involving documentation plans, style guides, usability testing and project planning. </div>
 </div>
 
-<div class="classBox eecs yl-2" id="eecs2030" style="left: 30em; top: 23.0em;" prereq="eecs1022">
-    <span class="course-code-full">EECS 2030 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Advanced Object Oriented Programming</span>
-    <div class="course-description" hidden="hidden">This course continues the separation of concern theme introduced in LE/EECS 1020 3.00 and LE/EECS1021 3.00. While 1020 and 1021 focuses on the client concern, this course focuses on the concern of the implementer. Hence, rather than using an API (Application Programming Interface) to build an application, the student is asked to implement a given API. Topics include implementing classes (non-utilities, delegation within the class definition, documentation and API generation, implementing contracts), aggregations (implementing aggregates versus compositions and implementing collections), inheritance hierarchies (attribute visibility, overriding methods, abstract classes versus interfaces, inner classes); applications of aggregation and inheritance in concurrent programming and event-driven programming; recursion; searching and sorting including quick and merge sorts); stacks and queues; linked lists; binary trees. </div>
+<div class="classBox CPS yl-2" id="CPS305" style="left: 16em; top: 23.0em;" prereq="CPS209">
+    <span class="course-code-full">CPS 305 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Data Structures</span>
+    <div class="course-description" hidden="hidden">Introduction to data structures and algorithms. Data structures covered will include stacks, queues, lists, trees, and graphs. Algorithm topics will include searching, sorting, hashing, algorithm design, greedy approaches, dynamic programming, recursion and complexity analysis. </div>
 </div>
 
-<div class="classBox eecs yl-2" id="eecs2031" style="left: 44em; top: 23.0em;" prereq="eecs1022">
-    <span class="course-code-full">EECS 2031 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Software Tools</span>
-    <div class="course-description" hidden="hidden">Tools commonly used in the software development process: the C language; shell programming; filters and pipes; version control systems and "make"; debugging and testing.</div>
+<div class="classBox CPS yl-2" id="CPS393" style="left: 30em; top: 23.0em;" prereq="CPS209">
+    <span class="course-code-full">CPS 393 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Introduction to UNIX, C and C++</span>
+    <div class="course-description" hidden="hidden">The course introduces the UNIX operating system, and the C and C++ languages. UNIX topics include: I/O, redirection, processes, and shell scripts. C and C++ are introduced with an emphasis on differences from previously studied languages. C topics include pointers, structures, memory allocation, and paradigm differences. C++ topics include class formalisms, static and dynamic instantiation, inheritance, constructors and destructors, polymorphism with virtual functions, operator overloading, and time permitting, friends. Stream I/O may be introduced. </div>
 </div>
 
-<div class="classBox math yl-2" id="math2015" style="left: 58em; top: 23.0em;" prereq="math1310">
-    <span class="course-code-full">MATH 2015 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Applied Multivariate and Vector Calculus</span>
-    <div class="course-description" hidden="hidden">Topics covered include partial derivatives; grad, div, curl and Laplacian operators; line and surface integrals; theorems of Gauss and Stokes; double and triple integrals in various coordinate systems; extrema and Taylor series for multivariate functions.</div>
+<div class="classBox CPS yl-2" id="MTH108" style="left: 44em; top: 23.0em;" prereq="">
+    <span class="course-code-full">MTH 108 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Linear Algebra</span>
+    <div class="course-description" hidden="hidden">Systems of linear equations, matrices determinants, vectors, geometry, linear transformations, linear independence, basis, dimension, eigenvalues and eigenvectors, complex numbers, applications. </div>
 </div>
 
-<div class="classBox math yl-2" id="math2030" style="left: 72em; top: 23.0em;" prereq="math1310">
-    <span class="course-code-full">MATH 2030 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Elementary Probability</span>
-    <div class="course-description" hidden="hidden">Introduction to the theory of probability as preparation for further study in either mathematical or applied probability and statistics. Topics include probability spaces, conditional probability, independence, random variables, distribution functions, expectation, Chebyshev's inequality, common distributions, moment-generating functions and limit theorems. </div>
+<div class="classBox CPS yl-2" id="CPS406" style="left: 2em; top: 30.0em;" prereq="CPS311 CPS209">
+    <span class="course-code-full">CPS 406 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Introduction to Software Engineering</span>
+    <div class="course-description" hidden="hidden">This course introduces the study of Object-Oriented software engineering. Topics include software project management, requirements gathering, requirements analysis, modeling, design, implementation and testing. UML diagrams and design patterns are also discussed. A major portion of the course is a team project, taking a system from the initial requirements to the final implementation. (2 hr Lab every other week). </div>
 </div>
 
-<div class="classBox eecs yl-2" id="eecs2101" style="left: 2em; top: 30.0em;" prereq="eecs2030 math1019">
-    <span class="course-code-full">EECS 2101 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Fundamentals of Data Structures</span>
-    <div class="course-description" hidden="hidden">The course discusses the fundamental data structures commonly used in the design of algorithms. Abstract operations on data structures are specified using pre- and post-conditions and/or system invariants. Trade-offs between a number of different implementations of each abstract data types (ADT) are analyzed. Each algorithm operating on data structures is proved correct using loop invariants or induction. Both formal and informal proofs are introduced, but most of the reasoning is done informally. Data structures are coded and unit tested in an object oriented language. Selecting the appropriate ADT and a suitable implementation depending on the application is covered. </div>
+<div class="classBox math yl-2" id="CPS420" style="left: 16em; top: 30.0em;" prereq="CPS305 MTH210">
+    <span class="course-code-full">CPS 420 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Discrete Structures</span>
+    <div class="course-description" hidden="hidden">Introduction to discrete structures as they apply to design and analysis. Review of proof techniques. Induction and recursion. Graphs and trees, and their applications in computing. Finite automata and regular expressions. Counting: arithmetic and geometric progressions, permutations and combinations, modular arithmetic. </div>
 </div>
 
-<div class="classBox math yl-2" id="math2271" style="left: 16em; top: 30.0em;" prereq="math2015">
-    <span class="course-code-full">MATH 2271 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Differential Equations for Scientists and Engineers</span>
-    <div class="course-description" hidden="hidden">Introduction to ordinary and partial differential equations, including their classification, boundary conditions, and methods of solution. Equations, methods, and solutions relevant to science and engineering are emphasized, and exploration is encouraged with the aid of software. Three lecture hours per week. One term. Three credits. </div>
+<div class="classBox math yl-2" id="CPS506" style="left: 30em; top: 30.0em;" prereq="CPS209">
+    <span class="course-code-full">CPS 506 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Comparative Programming Languages</span>
+    <div class="course-description" hidden="hidden">A survey of major programming paradigms, with emphasis on the functional paradigm. Discussion of data typing, program decomposition, scoping rules, control structures parameter passing. Programming languages will likely include commercially important functional languages such as Haskell, Clojure and Erlang, with examples of others as time permits. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3000" style="left: 2em; top: 44.0em;" prereq="eecs2030">
-    <span class="course-code-full">EECS 3000 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Professional Practice in Computing</span>
-    <div class="course-description" hidden="hidden">Professional, legal and ethical issues in the development, deployment and use of computer systems; their impact on society including privacy and security, computer crime, malware, and intellectual property; professional ethics and responsibilities; guest lecturers from industry, government and university. </div>
+<div class="classBox math yl-2" id="CPS590" style="left: 44em; top: 30.0em;" prereq="">
+    <span class="course-code-full">CPS 590 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Operating Systems I</span>
+    <div class="course-description" hidden="hidden">Introduction to O/S (system calls, interrupts, synchronous and asynchronous traps, O/S structure), using processes (process communication and synchronization), primitive communications (signals and signal management calls), pipes, messages, semaphores, shared memory, memory management, file systems, and (time permitting) remote procedure calls. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3101" style="left: 16em; top: 44.0em;" prereq="eecs2101 math1090 math1310">
-    <span class="course-code-full">EECS 3101 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Design and Analysis of Algorithms</span>
-    <div class="course-description" hidden="hidden">Review of fundamental data structures. Analysis of algorithms: time and space complexity. Algorithm design paradigms: divide-and-conquer, exploring graphs, greedy methods, local search, dynamic programming, probabilistic algorithms, computational geometry. NP-complete problems. </div>
+<div class="classBox math yl-2" id="MTH380" style="left: 58em; top: 30.0em;" prereq="MTH131 MTH207">
+    <span class="course-code-full">MTH 380 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Probability and Statistics I</span>
+    <div class="course-description" hidden="hidden">Probability and Statistics I: Descriptive statistics. Probability (Laws of probability. Conditional probability. Discrete probability distributions (binomial, hypergeometric, Poisson). Continuous probability distributions, Normal, t-exponential, x². Applications of discrete and continuous distributions. Sampling distributions (sample mean, sample proportion, difference between two samples, difference between two sample proportions). Sampling distribution concerning mean variance and proportion for one or two populations. Estimation for large and small samples. Hypothesis testing concerning mean, variance and proportion for one or two populations, (large samples and small samples) including paired data testing. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3201" style="left: 30em; top: 44.0em;" prereq="eecs1022 phys1412">
-    <span class="course-code-full">EECS 3201 (4.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Digital Logic Design</span>
-    <div class="course-description" hidden="hidden">Theory, analysis, and design of logic circuits used in digital systems. Students will be introduced to design of switching circuits to implement logic gates, digital number representation and arithmetic circuits. They will learn how to use logic gates to construct combinational and sequential logic circuits and functional blocks. The course and the laboratory introduces the students to hardware description language and modern cad tools. </div>
+<div class="classBox CPS yl-3" id="CPS510" style="left: 2em; top: 44.0em;" prereq="CPS305 COE428 COE528">
+    <span class="course-code-full">CPS 510 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Database Systems I</span>
+    <div class="course-description" hidden="hidden">Advanced file management techniques involving fundamentals of database organization, design and management. Emphasis is given to Relational Database Management Systems including relational algebra, normal Forms, physical Database Structures and their implementation, and Relational Database Languages. Other types of Database Managers are also discussed such as Hierarchical, Network and Inverted Files. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3213" style="left: 44em; top: 44.0em;" prereq="eecs2030 eecs1310">
-    <span class="course-code-full">EECS 3213 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Communication Networks</span>
-    <div class="course-description" hidden="hidden">Introduces the basics of communications and networking. Topics include transmission media; fundamental limits; protocols and hierarchies; the OSI model; encoding of data as signals; error and flow control; medium access; routing; internetworking; transport services; high-level applications. </div>
+<div class="classBox CPS yl-3" id="CPS633" style="left: 16em; top: 44.0em;" prereq="CPS393">
+    <span class="course-code-full">CPS 633 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Computer Security</span>
+    <div class="course-description" hidden="hidden">History and examples of computer crime. Security policies and mechanisms. Access control models. Implementation and usability issues. Physical security. Authentication technologies. Operating system security. Encryption algorithms and protocols. External and internal firewalls. Software flaws and malware. Ethical issues in computer security. Sample privacy noncompliance litigation cases, Social implications of computing networked communication. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3214" style="left: 58em; top: 44.0em;" prereq="eecs2030">
-    <span class="course-code-full">EECS 3214 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Computer Network Protocols and Applications</span>
-    <div class="course-description" hidden="hidden">This course focuses on the higher-level network protocols, security issues, network programming, and applications. </div>
+<div class="classBox CPS yl-3" id="CPS721" style="left: 30em; top: 44.0em;" prereq="CPS305 CPS420 MTH380">
+    <span class="course-code-full">CPS 721 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Artificial Intelligence I</span>
+    <div class="course-description" hidden="hidden">This course provides introduction to several important AI problems and techniques, including knowledge representation and reasoning, constraints satisfaction, search, natural language understanding, planning, uncertainty, belief networks, learning. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3215" style="left: 72em; top: 44.0em;" prereq="eecs2031">
-    <span class="course-code-full">EECS 3215 (4.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Embedded Systems</span>
-    <div class="course-description" hidden="hidden">Introduction to the design of embedded systems using both hardware and software. Topics include microcontrollers; their architecture, and programming; design and implementation of embedded systems using field programmable gate arrays. </div>
+<div class="classBox CPS yl-3" id="CPS616" style="left: 2em; top: 51.0em;" prereq="CPS305 MTH210 CPS420">
+    <span class="course-code-full">CPS 616 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Algorithms</span>
+    <div class="course-description" hidden="hidden">Complexity analysis and order notations, recurrence equations, brute force, divide-and-conquer techniques and the master theorem, transform-and-conquer and problem reduction, greedy method, dynamic programming, the knapsack and travelling salesman problems, graph algorithms, text processing and pattern matching techniques, P, NP, and NP-complete classes. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3221" style="left: 2em; top: 51.0em;" prereq="eecs2030 eecs2021 eecs2031">
-    <span class="course-code-full">EECS 3221 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Operating System Fundamentals</span>
-    <div class="course-description" hidden="hidden">Principles of operating systems. Concurrent processes, CPU scheduling, deadlocks, memory management, file systems, protection and security, and case studies. </div>
+<div class="classBox CPS yl-3" id="CPS706" style="left: 16em; top: 51.0em;" prereq="CPS590">
+    <span class="course-code-full">CPS 706 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Computer Networks I</span>
+    <div class="course-description" hidden="hidden">Internet, the network edge, the network core, delay, loss and throughput, protocol layers. Application Layer: principles of network applications, web. Transport Layer -UDP, connection oriented transport TCP, TCP congestion control. Network layer -The internet protocol (IP): Forwarding and addressing in the Internet. Routing algorithms. The link layer and local area networks. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3311" style="left: 16em; top: 51.0em;" prereq="eecs2030 eecs2101 eecs2031 math1090">
-    <span class="course-code-full">EECS 3311 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Software Design</span>
-    <div class="course-description" hidden="hidden">A study of design methods and their use in the correct implementation, maintenance and evolution of software systems. Topics include design, implementation, testing, documentation needs and standards, support tools. Students design and implement components of a software system. </div>
+<div class="classBox math yl-4" id="CPS40A/B" style="left: 2em; top: 65.0em;" prereq="">
+    <span class="course-code-full">CPS 40A/B (2.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Thesis</span>
+    <div class="course-description" hidden="hidden">The student will creatively apply the material learned in core courses to a significant problem. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3342" style="left: 30em; top: 51.0em;" prereq="eecs2030 eecs2101 math1090">
-    <span class="course-code-full">EECS 3342 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">System Specification and Refinement</span>
-    <div class="course-description" hidden="hidden">Theory and tools for specifying computer systems (sequential, concurrent and embedded). Specification (via set theory and predicate logic), modelling, abstraction, refinement and formal reasoning are undertaken before code development so that systems are correct by construction under the stated assumptions. </div>
+<div class="classBox math yl-4" id="CPS501" style="left: 16em; top: 65.0em;" prereq="CPS106 CPS109 CPS118 CPS125 BLG143">
+    <span class="course-code-full">CPS 501 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Bioinformatics</span>
+    <div class="course-description" hidden="hidden">Introduction to analysis, management, and visualization of cellular information at the molecular level. The course includes an overview of mathematical modeling and simulation, pattern matching, methods for phylogenetics, gene recognition, distributed and parallel biological computing, designing and managing biological databases (both relational and object-oriented), linking disparate databases and data, data mining, reasoning by analogy, hypothesis formation and testing by machine. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3401" style="left: 44em; top: 51.0em;" prereq="eecs2030 eecs2101 math1090">
-    <span class="course-code-full">EECS 3401 (3.00)</span><br>
-    <span class="course-name" style="font-size:0.9em;">Introduction to Artificial Intelligence and Logic Programming</span>
-    <div class="course-description" hidden="hidden">Artificial Intelligence (AI) deals with how to build intelligent systems. In this course, we examine fundamental concepts in AI: knowledge representation and reasoning, search, constraint satisfaction, reasoning under uncertainty, etc. The course also introduces logic programming and Prolog. </div>
+<div class="classBox math yl-4" id="CPS511" style="left: 30em; top: 65.0em;" prereq="CPS305 MTH108">
+    <span class="course-code-full">CPS 511 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Computer Graphics</span>
+    <div class="course-description" hidden="hidden">Software and hardware considerations in computer graphics. Mathematical manipulation of graphical objects; interactive graphics and the user interface; representation of 3-D shapes; fundamental implementation of algorithms. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3421" style="left: 58em; top: 51.0em;" prereq="eecs2030">
-    <span class="course-code-full">EECS 3421 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to Database Systems</span>
-    <div class="course-description" hidden="hidden">Concepts, approaches and techniques in database management systems (DBMS). Logical model of relational databases. An introduction to relational database design. Other topics such as query languages, crash recovery and concurrency control. </div>
+<div class="classBox math yl-4" id="CPS521" style="left: 44em; top: 65.0em;" prereq="CPS209 MTH380">
+    <span class="course-code-full">CPS 521 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Introduction to Data Science</span>
+    <div class="course-description" hidden="hidden">This course is an introduction to different aspects of data science. The focus is on data collection and management and then applying data analytics, statistical and machine learning models on the collected data. The topics of the course include big data, data models, distributed computing, regression and statistical analysis, neural networks, support vector machines, scalable machine learning models, basics of natural language processing, recommendation systems, and analyzing social graphs. All these topics will be discussed at the introductory level. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3431" style="left: 72em; top: 51.0em;" prereq="eecs2030 math1025">
-    <span class="course-code-full">EECS 3431 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to 3D Computer Graphics</span>
-    <div class="course-description" hidden="hidden">Introduces the fundamental concepts and algorithms of three-dimensional computer graphics, including object modelling, transformations, cameras, visibility and shading. </div>
+<div class="classBox math yl-4" id="CPS530" style="left: 58em; top: 65.0em;" prereq="CPS209">
+    <span class="course-code-full">CPS 530 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Web Systems Development</span>
+    <div class="course-description" hidden="hidden">TThis course presents the concepts and applications of the technologies to design and develop creative and successful web services. It covers design fundamentals and also programming languages for both server-side and client-side environments. Responsive design, search engine optimization and monetization strategies are also introduced. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3451" style="left: 2em; top: 58.0em;" prereq="eecs2021 math1310">
-    <span class="course-code-full">EECS 3451 (4.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Signals and Systems</span>
-    <div class="course-description" hidden="hidden">An introduction to the mathematical background in signals and systems; signal and image processing: sampling, discrete Fourier transform, filtering; linear system theory; Kalman filtering; feedback. </div>
+<div class="classBox CPS yl-4" id="CPS606" style="left: 72em; top: 65.0em;" prereq="CPS310">
+    <span class="course-code-full">CPS 606 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Advanced Computer Organization</span>
+    <div class="course-description" hidden="hidden">An advanced overview of computer architecture and organization. A study of the relationship between software and hardware and how this affects the design of architectural features: instruction execution, processor internals (including pipelining, parallelism and microcode). Instruction sets, memory and caches, busses, auxiliary storage (disk) controllers and vector processors. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3461" style="left: 16em; top: 58.0em;" prereq="eecs2030">
-    <span class="course-code-full">EECS 3461 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">User Interfaces</span>
-    <div class="course-description" hidden="hidden">Introduces user interfaces and the tools and mechanisms to create and prototype them. Students work in small groups and learn how to design user interfaces, how to realize them and how to evaluate the end result. </div>
+<div class="classBox CPS yl-4" id="CPS607" style="left: 86em; top: 65.0em;" prereq="CPS106 CPS109 CPS125 CPS188">
+    <span class="course-code-full">CPS 607 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Autonomous Mobile Robotics</span>
+    <div class="course-description" hidden="hidden">An introductory course in the design and implementation of autonomous vehicles. Topics will include the nature of autonomy and autonomous behaviour. Issues involving sensing and actuation will be discussed. Students will be introduced to the constraints and issues involved in building systems designed to interact with an environment independently. Students will be expected to construct working robots. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3481" style="left: 30em; top: 58.0em;" prereq="eecs2101">
-    <span class="course-code-full">EECS 3481 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Applied Cryptography</span>
-    <div class="course-description" hidden="hidden">An overview of cryptographic algorithms and the main cryptosystems in use today, emphasizing the application of cryptographic algorithms to designing secure protocols.</div>
+<div class="classBox CPS yl-4" id="CPS610" style="left: 2em; top: 72.0em;" prereq="CPS510">
+    <span class="course-code-full">CPS 610 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Database Systems II</span>
+    <div class="course-description" hidden="hidden">This course is a continuation of CPS510. Topics include: embedded DB languages (e.g. JDBC class libraries) and Embedded SQL, Transaction management, Distributed Databases, Transaction Concurrency Control, Concurrency Control through Locking/protocol and time stamps, Object-Oriented and Object-Relational Database Systems, non-structured and NOSQL databases (e.g. Mongo DB). Introduction to big data management, Map-Reduce and Hadoop. </div>
 </div>
 
-<div class="classBox eecs yl-3" id="eecs3482" style="left: 44em; top: 58.0em;" prereq="">
-    <span class="course-code-full">EECS 3482 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to Computer Security</span>
-    <div class="course-description" hidden="hidden">Introduces fundamental computer security concepts. Topics include security goals and terminology, an overview of the various security domains, an introduction to cryptography, security policies, risk management and auditing. Laboratory exercises emphasize these topics in a practical manner. </div>
-</div>
-
-<div class="classBox eecs yl-3" id="eecs3216" style="left: 2em; top: 65.0em;" prereq="eecs2031 eecs3201">
-    <span class="course-code-full">EECS 3216 (3.00)</span><br>
-    <span class="course-name" style="font-size:0.9em;">Digital Systems Engineering: Modeling, Implementation and Validation</span>
-    <div class="course-description" hidden="hidden">This is a project intensive course to introduce students to modeling, implementation, testing, and validation of hardware-based embedded systems. The emphasis in this course is on complex digital systems that interact with physical systems. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4101" style="left: 2em; top: 79.0em;" prereq="eecs2030 eecs2001 eecs3101">
-    <span class="course-code-full">EECS 4101 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Advanced Data Structures</span>
-    <div class="course-description" hidden="hidden">Amortized and worst-case analysis of data structures. Data structuring paradigms: self-adjustment and persistence. Lists: self-adjustment with the move-to-front heuristic. Search trees: splay trees, finger search trees. Heaps: skew heaps, Fibonacci heaps. Union-find trees. Link-and-cut trees. Multidimensional data structures and dynamization. Integrated with: GS/CSE 5101 3.00. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4111" style="left: 16em; top: 79.0em;" prereq="eecs2030 eecs2001 eecs3101">
-    <span class="course-code-full">EECS 4111 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Automata and Computability</span>
-    <div class="course-description" hidden="hidden">Introduction to more advanced topics in theoretical foundations of computer science, including the study of formal languages and automata, formal models of computation, and computational complexity measures. Integrated with: GS/CSE 5111 3.00. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4141" style="left: 30em; top: 79.0em;" prereq="math1025 eecs2021 eecs3101">
-    <span class="course-code-full">EECS 4141 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to Quantum Computing</span>
-    <div class="course-description" hidden="hidden">This course presents an overview of the quantum computing field without assuming any prior exposure to quantum mechanics. Drawing parallels between quantum and classical computing, the course covers the physical layer briefly before moving to quantum gates, the circuit model, and quantum algorithms. Quantum information is covered through applications. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4161" style="left: 44em; top: 79.0em;" prereq="eecs3101">
-    <span class="course-code-full">EECS 4161 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Mathematics of Cryptography</span>
-    <div class="course-description" hidden="hidden">Probability, information theory and number theory and applications to cryptography. Classical codes such as Caesar shift, Vigenere, ADFGVX, rectangular substitution, and others. Other topics: comma free codes, perfect secrecy, index of coincidence, public key systems, primality testing and factorization algorithms. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4201" style="left: 58em; top: 79.0em;" prereq="eecs3201 eecs3221">
-    <span class="course-code-full">EECS 4201 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Computer Architecture</span>
-    <div class="course-description" hidden="hidden">The internal structure and design ideas embodied in many computers and the techniques for evaluating them. Fast arithmetic algorithms, memory system designs, pipeline techniques, input-output subsystems and parallel computing structures. Future trends in computer architecture. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4214" style="left: 72em; top: 79.0em;" prereq="eecs3213 math2031 eecs3451">
-    <span class="course-code-full">EECS 4214 (4.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Digital Communications</span>
-    <div class="course-description" hidden="hidden">Introduces fundamental principles underlying design and analysis of digital communication systems. Develops mathematical/physical understanding from the information source through the transmitter, channel, receiver, and information sink. Topics include baseband transmission, matched filtering, modulation, channel coding, and spread spectrum. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4215" style="left: 2em; top: 86.0em;" prereq="eecs2030 eecs3213">
-    <span class="course-code-full">EECS 4215 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Mobile Communications</span>
-    <div class="course-description" hidden="hidden">Provides an overview of the latest developments and trends in wireless mobile communications, and addresses the impact of wireless transmission and user mobility on the design and management of wireless mobile systems. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4312" style="left: 16em; top: 86.0em;" prereq="eecs2030 eecs3311">
-    <span class="course-code-full">EECS 4312 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Software Engineering Requirements</span>
-    <div class="course-description" hidden="hidden">This course deals with the elicitation, specification and analysis of software requirements and provides a critical description of available methods and tools, and practical exercises on applying these methods and tools to realistic problems. Three lecture hours per week. One laboratory hour per week. One term. Three credits. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4313" style="left: 30em; top: 86.0em;" prereq="eecs2030 eecs3311">
-    <span class="course-code-full">EECS 4313 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Software Engineering Testing</span>
-    <div class="course-description" hidden="hidden">An introduction to systematic methods of testing and verification, covering a range of static and dynamic techniques and their use within the development process; emphasizes the view that design should be carried out with verification in mind to achieve overall project goals. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4314" style="left: 44em; top: 86.0em;" prereq="eecs2030 eecs3311">
-    <span class="course-code-full">EECS 4314 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Advanced Software Engineering</span>
-    <div class="course-description" hidden="hidden">Advanced software engineering methods, processes and measurements (from requirements through to system evolution) for managing and delivering reliable software on time and within budget. Understanding the different types of systems and their associated technical, ethical and professional issues. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4315" style="left: 58em; top: 86.0em;" prereq="eecs2030 eecs3342">
-    <span class="course-code-full">EECS 4315 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Mission-Critical Systems</span>
-    <div class="course-description" hidden="hidden">Theory and practical tools underlying deductive and algorithmic methods for ensuring the safety and correctness of mission critical systems (e.g. medical systems, nuclear reactors and train systems) with the practical ability to use verification tools to perform software certification. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4401" style="left: 72em; top: 86.0em;" prereq="eecs2030 eecs3401">
-    <span class="course-code-full">EECS 4401 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Artificial Intelligence</span>
-    <div class="course-description" hidden="hidden">This is a second course in Artificial intelligence that covers selected topics in this area such as: reasoning about action and planning, uncertain and fuzzy reasoning, knowledge representation, automated reasoning, non-monotonic reasoning and answer set programming, ontologies and description logic, local search methods, Markov decision processes, autonomous agents and multi-agent systems, machine learning, reasoning about beliefs and goals, and expert systems. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4404" style="left: 2em; top: 93.0em;" prereq="eecs2030 math2030">
-    <span class="course-code-full">EECS 4404 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to Machine Learning and Pattern Recognition</span>
-    <div class="course-description" hidden="hidden">Machine learning is the study of algorithms that learn how to perform a task from prior experience. This course introduces the student to machine learning concepts and techniques applied to pattern recognition problems in a diversity of application areas. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4411" style="left: 16em; top: 93.0em;" prereq="eecs2101 eecs2021 eecs2031 eecs3421">
-    <span class="course-code-full">EECS 4411 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Database Management Systems</span>
-    <div class="course-description" hidden="hidden">A study of principles of database management systems. A thorough analysis of theory of normal, relational algebra and calculus and query languages based on these concepts. Other topics: security and integrity issues, concurrency control, distributed systems, query optimization. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4412" style="left: 30em; top: 93.0em;" prereq="eecs2030 eecs3101 eecs3421 math2030">
-    <span class="course-code-full">EECS 4412 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Data Mining</span>
-    <div class="course-description" hidden="hidden">Introduces and presents basic concepts of data mining, data mining techniques, models and applications. Topics include association rule mining, classification models, sequential pattern mining and clustering. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4413" style="left: 44em; top: 93.0em;" prereq="eecs2030">
-    <span class="course-code-full">EECS 4413 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Building E-Commerce Systems</span>
-    <div class="course-description" hidden="hidden">A study of the technical infrastructure that underlies Electronic Commerce on the Internet. The foundational concepts are presented through a series of projects that use an industrial-strength framework on the server side, standard-compliant technologies on the client side, and a variety of messaging protocols on the network side. Best practices, security concerns, and performance issues are emphasized throughout. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4414" style="left: 58em; top: 93.0em;" prereq="eecs3101 eecs3421 math2030">
-    <span class="course-code-full">EECS 4414 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Information Networks</span>
-    <div class="course-description" hidden="hidden">Information networks are effective representations of pairwise relationships between objects. Examples include technological networks (e.g., World Wide Web), online social networks (e.g., Facebook), and biological networks (e.g., Protein-to-Protein interactions). The study of information networks is an emerging discipline of immense importance that combines graph theory, probability and statistics, data mining and analysis, and computational social science. This course provides students with both theoretical knowledge and practical experience of the field by covering models and algorithms of information networks and their basic properties. In addition, analysis of information networks provides the means to explore large, complex data coming from vastly diverse sources and to inform computational problems and better decisions. Topics include: basic graph theory, network measurements, network models, community detection, graph partitioning, link analysis, link prediction, information cascades & epidemics, influence maximization, network ties, recommendation systems, mining graphs, and connections to problems in the social sciences and economics. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4415" style="left: 72em; top: 93.0em;" prereq="eecs3101 eecs3421">
-    <span class="course-code-full">EECS 4415 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Big Data Systems</span>
-    <div class="course-description" hidden="hidden">Storing, managing, and processing datasets are foundational to both computer science and data science. The enormous size of today's data sets and the specific requirements of modern applications necessitated the growth of a new generation of data management systems, where the emphasis is put on distributed and fault-tolerant processing. New programming paradigms have evolved, an abundance of information platforms offering data management and analysis solutions appeared and a number of novel methods and tools have been developed. This course introduces the fundamentals of big data storage, retrieval, and processing systems. As these fundamentals are introduced, exemplary technologies are used to illustrate how big data systems can leverage very large data sets that become available through multiple sources and are characterized by diverse levels of volume (terabytes; billion records), velocity (batch; real-time; streaming) and variety (structured; semi-structured; unstructured). The course aims to provide students with both theoretical knowledge and practical experience of the field by covering recent research on big data systems and their basic properties. Students consider both small and large datasets because both are equally important and justify different trade-offs. Topics include: software frameworks for distributed storage and processing of very large data sets, MapReduce programming model, querying of structured data sets, column stores, key-value stores, document stores, graph databases, distributed stream processing frameworks. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4421" style="left: 2em; top: 100.0em;" prereq="math1025 math1310 eecs2031">
-    <span class="course-code-full">EECS 4421 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Introduction to Robotics</span>
-    <div class="course-description" hidden="hidden">An introduction to robotic manipulators and autonomous vehicles. The course covers the kinematics and dynamics of manipulators and autonomous platforms, robot sensors and navigation. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4422" style="left: 16em; top: 100.0em;" prereq="math1025 math1310 eecs2031">
-    <span class="course-code-full">EECS 4422 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Computer Vision</span>
-    <div class="course-description" hidden="hidden">Fundamental concepts of Computer vision and including aspects of biological vision, image formation process, image processing, feature extraction and matching, 3-D parameter estimation, applications and statistical techniques. Twelve supervised laboratory hours. </div>
-</div>
-
-<div class="classBox eecs yl-4" id="eecs4441" style="left: 30em; top: 100.0em;" prereq="eecs2030 eecs3461">
-    <span class="course-code-full">EECS 4441 (3.00)</span><br>
+<div class="classBox CPS yl-4" id="CPS613" style="left: 16em; top: 72.0em;" prereq="CPS209">
+    <span class="course-code-full">CPS 613 (1.00)</span><br>
     <span class="course-name" style="font-size:1.0em;">Human-Computer Interaction</span>
-    <div class="course-description" hidden="hidden">Introduces the concepts and technology necessary to design, manage and implement interactive software. Students work in small groups and learn how to design user interfaces, how to realize them and how to evaluate the end result. Both design and evaluation are emphasized. </div>
+    <div class="course-description" hidden="hidden">This course introduces the concepts of human-computer interaction and usability testing. Topics include: human information processing, usability principles, models of interaction, user interface paradigms, design of user interfaces. Students will also learn how to develop Graphical User Interfaces using a specific User Interface Management system. </div>
 </div>
 
-<div class="classBox eecs yl-4" id="eecs4443" style="left: 44em; top: 100.0em;" prereq="eecs2030 eecs3461">
-    <span class="course-code-full">EECS 4443 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Mobile User Interfaces</span>
-    <div class="course-description" hidden="hidden">The design and implementation of user interfaces for touchscreen devices and tablet computers. Students develop user interfaces that include touch, multi-touch, vibration, device motion, position, and orientation, environment sensing, video capture, and audio capture. Twelve Supervised laboratory hours that emphasize these topics in a practical manner. </div>
+<div class="classBox CPS yl-4" id="CPS615" style="left: 30em; top: 72.0em;" prereq="CPS305 CPS420">
+    <span class="course-code-full">CPS 615 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Theory of Computation</span>
+    <div class="course-description" hidden="hidden">This course introduces students to the theory of computation. Topics include: regular expressions and languages, finite state automata, context-free languages, pushdown automata, Turing machines, computability, and NP-completeness. </div>
 </div>
 
-<div class="classBox eecs yl-4" id="eecs4452" style="left: 58em; top: 100.0em;" prereq="eecs3451">
-    <span class="course-code-full">EECS 4452 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Digital Signal Processing: Theory and Applications</span>
-    <div class="course-description" hidden="hidden">Fundamental digital signal processing. Inner product, Hilbert space, orthogonality principle, discrete-time Fourier transform, discrete Fourier transform, z-transform, multirate systems, sampling and interpolation. </div>
+<div class="classBox CPS yl-4" id="CPS621" style="left: 44em; top: 72.0em;" prereq="CPS106 CPS109 CPS393">
+    <span class="course-code-full">CPS 621 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Introduction to Multimedia Systems</span>
+    <div class="course-description" hidden="hidden">Multimedia data is becoming increasingly important in many scientific and commercial arenas. In this course, students will be introduced to principles and current technologies of multimedia system design. Topics include: multimedia data representation, processing multimedia visual information, video and audio compression, retrieval of multimedia data, such as text, graphics, colour images and video. In addition, issues related to multimedia hardware and software as well as specific applications will be discussed. </div>
 </div>
 
-<div class="classBox eecs yl-4" id="eecs4461" style="left: 72em; top: 100.0em;" prereq="eecs2030 eecs3461">
-    <span class="course-code-full">EECS 4461 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Hypermedia and Multimedia Technology</span>
-    <div class="course-description" hidden="hidden">Design and application of computer systems which provide information resources for learning, online-help, conceptual exploration, visualization and entertainment; e.g. hypertext/hypermedia, networked information-servers, systems for collaborative work, and "virtual reality". One or two topics are discussed in depth using current research literature. </div>
+<div class="classBox CPS yl-4" id="CPS630" style="left: 58em; top: 72.0em;" prereq="CPS510 CPS530">
+    <span class="course-code-full">CPS 630 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Web Applications</span>
+    <div class="course-description" hidden="hidden">This course is a continuation of CPS 530. Students will learn advanced techniques for designing and building (client and server) web applications using modern technologies. Topics include: web application development process, cross browser compatibility issues, responsive design, templating and database connectivity and web security, modular design and various web frameworks. At the end of this course students will be able to design and implement a database application with a commercial grade web interface for desktop and mobile computing platforms. (2 hr. Lab every other week). </div>
 </div>
 
-<div class="classBox eecs yl-4" id="eecs4481" style="left: 2em; top: 107.0em;" prereq="eecs2030 eecs3214">
-    <span class="course-code-full">EECS 4481 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Computer Security Laboratory</span>
-    <div class="course-description" hidden="hidden">Provides a thorough understanding of the technical aspects of computer security. It covers network, operating systems, and application software security. Computer laboratory projects provide exposure to various tools in a hands-on setting. </div>
+<div class="classBox CPS yl-4" id="CPS643" style="left: 72em; top: 72.0em;" prereq="CPS511">
+    <span class="course-code-full">CPS 643 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Virtual Reality</span>
+    <div class="course-description" hidden="hidden">This course describes the underlying concepts and algorithms of Virtual Reality (VR) systems. A review of current VR technology and the fundamental principles of interaction, modelling and simulation for VR are presented. This is a lab-based and project-based course in which students will use VR hardware and a VR software framework to design, model and program an interactive virtual environment for various application areas. </div>
 </div>
 
-<div class="classBox eecs yl-4" id="eecs4482" style="left: 16em; top: 107.0em;" prereq="eecs3213 eecs3214 eecs3482">
-    <span class="course-code-full">EECS 4482 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Network Security and Forensics</span>
-    <div class="course-description" hidden="hidden">This course provides a comprehensive coverage of theoretical and practical aspects of network security and forensics. The emphasis is on the limitations and attacks against network protocols and architectures most widely used in practice, as well as the best known detection, prevention and remediation techniques against these attacks. The course also has a strong emphasis on hands-on learning either by using already existing real-world tools or by developing new custom software. Familiarity with the TCP/IP protocol suite and basic computer networking concepts is required. </div>
+<div class="classBox CPS yl-4" id="CPS707" style="left: 86em; top: 72.0em;" prereq="CPS406 CPS420 MTH280">
+    <span class="course-code-full">CPS 707 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Software Verification and Validation</span>
+    <div class="course-description" hidden="hidden">This course introduces the topics of verification and validation of computer software. Material covered may include statistical and functional approaches to testing, test data analysis, testability, static analysis techniques, dynamic analysis techniques, selected state-of-the-art results, and real-world applications. </div>
 </div>
 
-<div class="classBox eecs yl-4" id="eecs4491" style="left: 30em; top: 107.0em;" prereq="eecs2030 eecs3431 math1310">
-    <span class="course-code-full">EECS 4491 (3.00)</span><br>
-    <span class="course-name" style="font-size:1.0em;">Simulation and Animation for Computer Games</span>
-    <div class="course-description" hidden="hidden">Introduction to simulation and animation techniques used in computer games, with a focus on the algorithms and methods that support moving objects in the virtual environments. </div>
+<div class="classBox CPS yl-4" id="CPS710" style="left: 2em; top: 79.0em;" prereq="CPS305 COE428 CPS420 MTH314">
+    <span class="course-code-full">CPS 710 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Compilers and Interpreters</span>
+    <div class="course-description" hidden="hidden">Introduction to compiler design: theory, techniques, and tools. Students will develop an interpreter or compiler. Assembler and preprocessors will also be briefly discussed. </div>
 </div>
 
+<div class="classBox CPS yl-4" id="CPS713" style="left: 16em; top: 79.0em;" prereq="CPS209 CPS633">
+    <span class="course-code-full">CPS 713 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Applied Cryptography</span>
+    <div class="course-description" hidden="hidden">The notion of secure communication. Classical cryptography. Pseudo-random number generation. The Data Encryption Standard and Advanced Encryption Standard. Cryptographically secure hash functions. Public key crypto system. Digital signature schemes. E-commerce and digital cash. Secret sharing schemes. Authentication applications. Electronic mail security. IP and Web security. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS714" style="left: 30em; top: 79.0em;" prereq="CPS406 COE691 COE692">
+    <span class="course-code-full">CPS 714 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Software Project Management</span>
+    <div class="course-description" hidden="hidden">Introduction to issues involved in managing large, complex software projects. Introduction to industry-standard project management techniques and tools needed to use them, as well as their application to software projects. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS716" style="left: 44em; top: 79.0em;" prereq="CPS706">
+    <span class="course-code-full">CPS 716 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Computer Networks II</span>
+    <div class="course-description" hidden="hidden">Advanced Internet routing algorithms (inter-AS routing, broadcast and multicast routing, switch design). Advanced data link layer topics (virtual local area networks, multi-protocol label switching). Multimedia Networking (streaming, real-time transport protocols, content distribution networks, scheduling and policing algorithms, providing quality of service). Wireless/Mobile Networks, (cellular networks, WiFi, mobility management, routing in MANET). Network Management. Special topics in networking. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS730" style="left: 58em; top: 79.0em;" prereq="CPS393 CPS590">
+    <span class="course-code-full">CPS 730 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Web Technology and Performance Measurement</span>
+    <div class="course-description" hidden="hidden">This course focuses on understanding the core technologies underlying the World Wide Web, such as protocols (e.g., HTTP) , software components (i.e., client, server and proxy) and important web applications (e.g., web caching). Another part of this course is introduction to performance measurement and in particular Web Performance Measurement. The course consists of assignments and practical examples (based on Unix/Linux) which helps students to understand the principles of how distributed applications are built. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS731" style="left: 72em; top: 79.0em;" prereq="CPS406">
+    <span class="course-code-full">CPS 731 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Software Engineering I</span>
+    <div class="course-description" hidden="hidden">Essential methods for the Systematic approach to the development, operation, maintenance, and retirement of Software. Software Life Cycles, process modelling, configuration management, managing Software quality, requirements analysis, specification, verification and validation, Software design, implementation, testing and maintenance. Software Tools, CASE tools and documentation. (2 hr. Lab every other week) </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS752" style="left: 86em; top: 79.0em;" prereq="CPS310">
+    <span class="course-code-full">CPS 752 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Parallel Computer Systems</span>
+    <div class="course-description" hidden="hidden">The topics of this course centre around the concepts of parallel processors and supercomputers with emphasis on processor technology, performance, and software, parallel computer models, program flow control and scheduling, metrics and measures, scalability of parallel algorithms, memory hierarchy technology, pipeline design, multivector and SIMD organizations, scalability and multithreading, software and compliers, case studies of the CRAY Y-MP and CM-5 environments. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS801" style="left: 2em; top: 86.0em;" prereq="CPS305 CPS590">
+    <span class="course-code-full">CPS 801 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Operating Systems II</span>
+    <div class="course-description" hidden="hidden">This course covers the principal internal functions of operating systems with particular emphasis on UNIX/Linux and systems programming. Topics covered in this course are: OS structure, process management (including concurrency and synchronization), memory management, file systems, input-output and device management, and elements of distributed systems. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS803" style="left: 16em; top: 86.0em;" prereq="MTH108 MTH207 CPS305 MTH380">
+    <span class="course-code-full">CPS 803 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Machine Learning</span>
+    <div class="course-description" hidden="hidden">Machine learning involves the study of algorithms capable of learning from data or prior experience. This course develops an aptitude for applying machine learning algorithms to different problem domains while at the same time, understanding the theoretical basis for machine learning algorithms. Machine learning has many applications in medicine, autonomous systems, computational biology, finance, computer vision and other domains. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS811" style="left: 30em; top: 86.0em;" prereq="CPS706">
+    <span class="course-code-full">CPS 811 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Distributed Systems and Networks</span>
+    <div class="course-description" hidden="hidden">A continuation of CPS 706. This course deals with the concepts of internetworking as an extension of data communications. Topics will include routing and the TCP/IP suite of protocols. An introduction to X Windows programming allows students to investigate the aspects of distributed systems using Remote Procedure Calling, shared files and directories, NFS and NIS, the Internet, and other Distributed Computing Environments. Case studies will involve NFS, Amoeba, Mach and Grapevine. Concurrency aspects will be considered in the topics of collaborating servers and file replication. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS813" style="left: 44em; top: 86.0em;" prereq="CPS607">
+    <span class="course-code-full">CPS 813 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Human Robot Interaction</span>
+    <div class="course-description" hidden="hidden">From the first time a human picked up a stick and attempted to knock down food from an unreachable branch we have attempted to use technology to extend our influence on the world. This course will examine physical robotic systems designed to extend human presence to remote locations. Topics may include Presence, Situational Awareness, Telerobotics and Agency. The course is designed to provide students with a practical introduction that will involve the design and construction of working robotic systems designed to interact with remote environments. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS815" style="left: 58em; top: 86.0em;" prereq="CPS616">
+    <span class="course-code-full">CPS 815 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Topics in Algorithms</span>
+    <div class="course-description" hidden="hidden">This course covers advanced methods of algorithmic design and analysis. Topics will be selected from: advanced data structures; amortization; persistence; optimization; approximation; randomization; probabilistic analysis; parallel algorithms. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS822" style="left: 72em; top: 86.0em;" prereq="CPS721">
+    <span class="course-code-full">CPS 822 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Artificial Intelligence II</span>
+    <div class="course-description" hidden="hidden">The course will focus on the theory and implementation of discreet dynamical systems considered from the perspective of artificial intelligence. Modern logical representations of actions and their effects will be discussed in detail. The emphasis will be on the compromises required to ensure computational tractability of reasoning about effects of actions. The course will show how these research issues are relevant to artificial intelligence and to applications beyond the traditional area of artificial intelligence. Topics may include: logical foundations, reasoning about direct and indirect effects of actions, deductive planning, time and concurrency, causality, stochastic actions, modular representations. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS824" style="left: 86em; top: 86.0em;" prereq="CPS305 MTH380">
+    <span class="course-code-full">CPS 824 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Reinforcement Learning</span>
+    <div class="course-description" hidden="hidden">This course focuses on topics related to reinforcement learning. The course will cover making decisions under uncertainty, Markov decision processes, dynamic programming, temporal-difference learning, eligibility traces, value function approximation methods, Monte Carlo reinforcement learning methods, and the integration of learning and planning. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS843" style="left: 2em; top: 93.0em;" prereq="CPS305 MTH108 MTH207 MTH380 ELE532">
+    <span class="course-code-full">CPS 843 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Introduction to Computer Vision</span>
+    <div class="course-description" hidden="hidden">This course describes foundational concepts of computer vision. In particular, the course covers the image formation process, image representation, feature extraction, model fitting, motion analysis, 3D parameter estimation and applications. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS844" style="left: 16em; top: 93.0em;" prereq="MTH380">
+    <span class="course-code-full">CPS 844 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Data Mining</span>
+    <div class="course-description" hidden="hidden">This course introduces the basic data mining concepts, methods, implementations, as well as applications in different areas, especially on the world wide web. Topics covered include the basic data mining techniques, data preprocessing, association rule mining, classification, clustering, web mining, and data mining application (e.g. in web personalization, recommender system, security). At the end of this course, students should be able to implement and use some of important data mining algorithms in practical applications. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS845" style="left: 30em; top: 93.0em;" prereq="CPS406">
+    <span class="course-code-full">CPS 845 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Extreme Programming and Agile Processes</span>
+    <div class="course-description" hidden="hidden">This course presents the main principles of Extreme Programming (XP) development, including: development methodology; rules and practices; application domains; public resources, such as forums, literature, and supportive tools. Other agile methods are covered as appropriate. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS847" style="left: 44em; top: 93.0em;" prereq="CPS209">
+    <span class="course-code-full">CPS 847 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Software Tools for Startups</span>
+    <div class="course-description" hidden="hidden">This course will discuss core tools, frameworks, and packages used by modern startups. These areas include but are not limited to source code management, project management, databases, middleware and front-end libraries. The labs and assignments will offer hands-on experience with the software. Sample tools may include: git, ZenHub, GitOps, Terraform, Docker, Ethereum, Django, Vue, MongoDb, and QisKit. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS853" style="left: 58em; top: 93.0em;" prereq="CPS406 CPS420 MTH210 CPS510 ITM500">
+    <span class="course-code-full">CPS 853 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Creating Big Data Systems.</span>
+    <div class="course-description" hidden="hidden">This course will discuss how to build Big Data analytic and transactional systems. The course will provide introduction to the theory and practice of large-scale software systems. We will focus on defining Big Data properties and architecting the systems to accommodate these properties. In addition, we will cover quality assurance of such systems, as well as management (risk estimation, planning, team management, etc.) </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS865" style="left: 72em; top: 93.0em;" prereq="CPS406">
+    <span class="course-code-full">CPS 865 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Model-Driven Software Engineering</span>
+    <div class="course-description" hidden="hidden">This course discusses the foundations and technical aspects of Model-Driven Software Engineering (MDSE). Topics include: models and transformations, driving principles, application scenarios, and standards like Model-Driven Architecture (MDA), the integration of MDSE in existing development processes, and the design of domain-specific modeling languages and Model-to-Text and Model-to-Model transformations. The course also introduces tools that support the management of MDSE projects. </div>
+</div>
+
+<div class="classBox CPS yl-4" id="CPS870" style="left: 86em; top: 93.0em;" prereq="CPS420 MTH210 MTH380 MTH304">
+    <span class="course-code-full">CPS 870 (1.00)</span><br>
+    <span class="course-name" style="font-size:1.0em;">Applied Natural Language Processing</span>
+    <div class="course-description" hidden="hidden">This course will examine the state-of-the-art in applied Natural Language Processing (NLP), with an emphasis on how well the algorithms work and how they can be used (or not) in applications. Topics will include POS tagging, parsing, language models and classification. </div>
+</div>
 
         </div>
-        <!-- Your course boxes go here -->
-    </div>
-    <div id="explain">
-        <div id="explain-main" style="display: none;">
-            <div id="explain-topp">
-                EECS 2101 (3.00)<br>
-                Fundamentals of Data Structures
+        <!-- the explaination box -->
+        <div id="explain">
+            <div id="explain-main" style="display: none;">
+                <div id="explain-topp">
+                    CPS 2101 (1.00)<br>
+                      Fundamentals of Data Structures
+                </div>
+                <div id="explain-desc">
+                </div>
+                <div id="explain-prereq-list-div">
+                    Prerequsites:
+                    <ul id="explain-prereq-list">
+                    </ul>
+                </div>
             </div>
-            <div id="explain-desc">
-            </div>
-            <div id="explain-prereq-list-div">
-                Prerequsites:
-                <ul id="explain-prereq-list">
-                </ul>
-            </div>
+            <div id="explain-hint">Click on a course to see its description here</div>
         </div>
-        <div id="explain-hint">Click on a course to see its description here</div>
-    </div>
-    <div id="settings-bar">
-       
 
-       
-        <div id="zoom-size-div">
-            Zoom: <span id="zoom-value">1</span>x<br>
-            <input type="range" id="zoom-range-slider" min="0.35" max="2.0" value="1.0" step="0.05">
+        <div id="settings-bar">
+            <button id="switch-color-code">Color code by year</button>
+            <div id="zoom-size-div">
+                Zoom: <span id="zoom-value">1</span>x<br>
+                <input type="range" id="zoom-range-slider" min="0.35" max="2.0" value="1.0" step="0.05">
+            </div>
         </div>
-    </div>
-    <div class="madeby">Made by <a href="https://github.com/PresidentKevvol">PresidentKevvol / DeepFriedPancake</a> (2019-2023)</div>
-</body>
+
+        <div class="madeby">Made by <a href="https://github.com/arifekrem/TMU_CS_ClassList/">Ekrem Yilmaz / Eyyup Kaleli</a> (2024)</div>
+    </body>
 </html>

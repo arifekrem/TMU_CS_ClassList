@@ -28,14 +28,7 @@ div#root {
     color: rgb(218, 218, 218);
 }
 
-.madeby {
-    position: relative;
-    left: 32;
-    bottom: 16;
-    margin: 0;
-    padding: 0;
-    color:rgb(80, 80, 80)
-}
+
 
 .svgConns {
     position: absolute;
@@ -55,52 +48,42 @@ div#root {
     transition: all 500ms ease;
 }
 
-/* the two styles of color coding for the boxes */
 
-/* by department */
-
-div#root[colorcode="dept"] .eecs {
-    /*border-color: #ffffff;*/
-    border: 2px solid #7f00d4;
-    background-color: #f1dbff;
-}
-
-div#root[colorcode="dept"] .math {
-    border: 2px solid #00a2c2;
-    background-color: #dcf9ff;
-}
 
 /* by level */
 
 div#root[colorcode="level"] .yl-1 {
     border-style: solid;
-    border-color: #d6d603;
+    border-color: #f3ec67;
     border-width: 2px;
-    background-color: #ffffce;
+    background-color: #f9f069;
 }
 
 div#root[colorcode="level"] .yl-2 {
     border-style: solid;
-    border-color: #417e0c;
+    border-color: #cdf69c;
     border-width: 2px;
-    background-color: #e2ffc8;
+    background-color: #cdf69c;
 }
 
 div#root[colorcode="level"] .yl-3 {
     border-style: solid;
-    border-color: #1f5781;
+    border-color: #a3d8f3;
     border-width: 2px;
-    background-color: #e2f2ff;
+    background-color: #a3d8f3;
 }
 
 div#root[colorcode="level"] .yl-4 {
     border-style: solid;
-    border-color: #7852e9;
+    border-color: #dcd0f6;
     border-width: 2px;
-    background-color: #f1ebff;
+    background-color: #dcd0f6;
 }
 
 /* the explaination (description) section */
+
+
+
 
 div#explain {
     position: fixed;
@@ -109,12 +92,12 @@ div#explain {
     width: 21.5vw;
     height: 50vh;
     border: 1px solid #c4c4c4;
-    background-color: rgb(39, 45, 51);
+    background-color: #002d72;
     border-radius: 0.5em;
     margin-right: 32px;
     margin-bottom: 32px;
     padding: 1rem;
-    display: flex;
+    display: fixed;
     justify-content: center;
     align-items: center;
     padding: 3rem;
@@ -171,7 +154,10 @@ div#zoom-size-div {
     padding: 1.1rem 2rem;
     /* border: 2px solid white; */
     border-radius: 0.5em;
-    background: rgb(39, 45, 51);
+
+    background: #002d72;
+    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +176,7 @@ div#zoom-size-div {
 
 .wide-bg-colour{
     text-align: left;
-    background-color: rgb(59, 70, 78);
+    background-color: #004c9b;
     display: block;
     padding: 4px;
     margin-bottom: 56px;

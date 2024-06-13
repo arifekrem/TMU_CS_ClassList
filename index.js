@@ -80,7 +80,14 @@ function highlightCourse(source) {
     source.style.opacity = '1.0';
     const arrows = document.getElementsByClassName(sourceId);
     for (const arrow of arrows) {
-        arrow.style.opacity = '1.0';
+        const related = arrow.classList;
+        for (const rel of related) {
+            const elem = document.getElementById(rel);
+            if (elem) {
+                arrow.style.opacity = '1.0';
+                elem.style.opacity = '1.0';
+            }
+        }
     }
 }
 

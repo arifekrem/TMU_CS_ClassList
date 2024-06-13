@@ -18,8 +18,10 @@
     </script>
 </head>
 <body>
-    <div class="wide-bg-colour">
-        <h1 class="titl">TMU Computer Science Skill Tree <br> (Course Prerequisite List) </h1>
+    <div id="namebox">
+        <div class="wide-bg-colour">
+            <h1 class="titl">TMU CS Class Tree <br> (Course Prerequisite List) </h1>
+        </div>
     </div>
     <div hidden="hidden" id="templates">
         <line x1="" y1="" x2="" y2="" style="stroke:rgb(0,0,0);stroke-width:1;" marker-end="url(#arrow)" class="svg-arrow"/>
@@ -400,7 +402,8 @@
 
         </div>
     </div>         
-    
+
+
     <!-- description of the courses -->
     <div id="explain">
         <div id="explain-main" style="display: none;">
@@ -421,10 +424,30 @@
     <div id="settings-bar">       
 
         <div id="zoom-size-div">
-            Zoom: <span id="zoom-value">0.85</span>x<br>
-            <input type="range" id="zoom-range-slider" min="0.65" max="1.25" value="0.85" step="0.1">
+            Zoom: <span id="zoom-value">1</span>x<br>
+            <input type="range" id="zoom-range-slider" min="0.7" max="1.3" value="1" step="0.1">
         </div>
-    </div>
-   
+
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #f3ec67;"></div>
+                    <div class="legend-text">1st Year Courses</div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #cdf69c;"></div>
+                    <div class="legend-text">2nd Year Courses</div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #a3d8f3;"></div>
+                    <div class="legend-text">3rd Year Courses</div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #dcd0f6;"></div>
+                    <div class="legend-text">Table 1 Courses</div>
+                </div>
+            </div>
+        
+        </div>
+
 </body>
 </html>

@@ -8,16 +8,17 @@ body {
 }
 
 .legend {
-    position: flex;
+    position: fixed;
     right: 0;
     bottom: 10;
     width: 16.5vw;
     height: 6vh;
     color: white;
-    border: 1px solid #c4c4c4;
+    border: 1px solid #002d72;
     background-color: #002d72;
     border-radius: 0.5em;
-    margin-top: 32px;
+    margin-top: 100px;
+    margin-right: 32px;
     margin-bottom: 32px;
     display: flex;
     justify-content: center;
@@ -133,7 +134,7 @@ div#explain {
     bottom: 0;
     width: 16.5vw;
     height: 50vh;
-    border: 1px solid #c4c4c4;
+    border: 1px solid #002d72;
     background-color: #002d72;
     border-radius: 0.5em;
     margin-right: 32px;
@@ -190,7 +191,7 @@ div#settings-bar {
 
 div#zoom-size-div {
     font-size: 1.2em;
-    text-align: left;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
     padding: 1.1rem 2rem;
@@ -199,8 +200,13 @@ div#zoom-size-div {
 
     background: #002d72;
     
-
-    display: flex;
+    right: 0;
+    bottom: 10;
+    width: 19vw;
+    height: 4vh;
+    display: fixed;
+    margin-top: 100px;
+    margin-bottom: 32px;
     justify-content: center;
     align-items: center;
 
@@ -208,8 +214,8 @@ div#zoom-size-div {
 }
 
 #zoom-range-slider {
-    width: 14em;
-    margin-left: 16px;
+    width: 16.5em;
+    margin-left: 15px;
 }
 
 .course-code-full {

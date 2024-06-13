@@ -4,7 +4,42 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.2;
     background: rgb(240, 247, 253);
+    overflow-x: scroll
 }
+
+.legend {
+    position: flex;
+    right: 0;
+    bottom: 10;
+    width: 16.5vw;
+    height: 6vh;
+    color: white;
+    border: 1px solid #c4c4c4;
+    background-color: #002d72;
+    border-radius: 0.5em;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    box-shadow: 0 10px 16px 3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+}
+.legend-item {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.legend-color {
+    width: 20px;
+    height: 20px;
+}
+.legend-text {
+    font-size: 14px;
+}
+
 
 .titl {
     padding-top: 0;
@@ -80,6 +115,13 @@ div#root[colorcode="level"] .yl-4 {
     background-color: #dcd0f6;
 }
 
+div#root[colorcode="level"] .yl-5 {
+    border-style: solid;
+    border-color: #dfdede;
+    border-width: 2px;
+    background-color: #dfdede;
+}
+
 /* the explaination (description) section */
 
 
@@ -89,7 +131,7 @@ div#explain {
     position: fixed;
     right: 0;
     bottom: 0;
-    width: 21.5vw;
+    width: 16.5vw;
     height: 50vh;
     border: 1px solid #c4c4c4;
     background-color: #002d72;
@@ -180,6 +222,7 @@ div#zoom-size-div {
     display: block;
     padding: 4px;
     margin-bottom: 56px;
+    width: 200em;
 }
 
 #zoom-value{

@@ -11,7 +11,7 @@ body {
     position: fixed;
     right: 0;
     bottom: 10;
-    width: 16.5vw;
+    width: 16.6%;
     height: 6vh;
     color: white;
     border: 1px solid #002d72;
@@ -31,7 +31,7 @@ body {
     color: white;
     align-items: center;
     margin-top: 5px;
-    margin-right: 10px;
+    margin-right: 7px;
 }
 .legend-color {
     width: 20px;
@@ -132,14 +132,14 @@ div#explain {
     position: fixed;
     right: 0;
     bottom: 0;
-    width: 16.5vw;
+    width: 16.5%;
     height: 50vh;
     border: 1px solid #002d72;
     background-color: #002d72;
     border-radius: 0.5em;
     margin-right: 32px;
     margin-bottom: 32px;
-    padding: 1rem;
+    margin-top: 32px;
     display: fixed;
     justify-content: center;
     align-items: center;
@@ -180,7 +180,7 @@ div#settings-bar {
     top: 0;
     text-align: right;
     padding: 1rem;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     margin-top: 6px;
@@ -197,25 +197,21 @@ div#zoom-size-div {
     padding: 1.1rem 2rem;
     /* border: 2px solid white; */
     border-radius: 0.5em;
-
     background: #002d72;
-    
     right: 0;
     bottom: 10;
     width: 19vw;
     height: 4vh;
     display: fixed;
-    margin-top: 100px;
+    margin-top: 1em;
     margin-bottom: 32px;
     justify-content: center;
     align-items: center;
-
-    margin-top: 1em;
 }
 
 #zoom-range-slider {
-    width: 16.5em;
-    margin-left: 15px;
+    align-items: center;
+    width: 100%;
 }
 
 .course-code-full {
@@ -240,4 +236,27 @@ div#zoom-size-div {
     color:#002d72;
 }
 
+@media (max-width: 600px)
+{
 
+}
+
+@media (min-width: 601px)
+{
+
+}
+
+@media (min-width: 768px)
+{
+
+}
+
+@media (min-width: 992px)
+{
+
+}
+
+@media (min-width: 1200px)
+{
+
+}
